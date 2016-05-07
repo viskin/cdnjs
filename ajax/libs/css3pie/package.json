@@ -6,31 +6,18 @@
   "description": "CSS3 PIE JavaScript edition. Enables rendering of common CSS3 decoration properties in Internet Explorer 6-9.",
   "keywords": [
     "polyfill",
+    "ie",
+    "internet",
+    "explorer",
     "css3",
-    "ie"
+    "pie"
   ],
-  "maintainers": [
-    {
-      "name": "Jason Johnston",
-      "email": "jason@css3pie.com",
-      "web": "http://lojjic.com"
-    }
-  ],
-  "bugs": "https://github.com/lojjic/PIE/issues/",
   "licenses": [
-    {
-      "type": "Apache-2.0",
-      "url": "https://github.com/lojjic/PIE/blob/master/LICENSE-APACHE2.txt"
-    },
-    {
-      "type": "GPL-2.0",
-      "url": "https://github.com/lojjic/PIE/blob/master/LICENSE-GPL2.txt"
-    }
+    "Apache-2.0",
+    "GPL-2.0"
   ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/lojjic/PIE.git"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lojjic/PIE"
+  }
 }

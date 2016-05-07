@@ -7,15 +7,8 @@
   "keywords": [
     "css"
   ],
-  "maintainers": [
-    {
-      "name": "Lea Verou"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/leaverou/prefixfree/"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leaverou/prefixfree/"
+  }
 }

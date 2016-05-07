@@ -6,10 +6,16 @@
       "files": [
         "*.js"
       ]
+    },
+    {
+      "basePath": "/dist/",
+      "files": [
+        "*.js"
+      ]
     }
   ],
   "name": "moment-range",
-  "version": "1.0.6",
+  "version": "2.2.0",
   "description": "Fancy date ranges for Moment.js",
   "filename": "moment-range.min.js",
   "homepage": "https://github.com/gf3/moment-range",
@@ -19,15 +25,10 @@
     "time",
     "range"
   ],
-  "maintainers": [
-    {
-      "name": "Gianni Chiappetta"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/gf3/moment-range.git"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gf3/moment-range.git"
+  },
+  "license": "UNLICENSE",
+  "author": "Gianni Chiappetta <gianni@runlevel6.org> (http://butt.zone)"
 }

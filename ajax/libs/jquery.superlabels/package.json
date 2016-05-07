@@ -9,17 +9,17 @@
     "form"
   ],
   "homepage": "http://plugins.jquery.com/superLabels/",
-  "bugs": "https://github.com/remybach/jQuery.superLabels/issues",
-  "maintainers": [
-    {
-      "name": "Remy Bach",
-      "url": "http://remy.bach.me.uk/"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/remybach/jQuery.superLabels.git"
-    }
-  ]
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/remybach/jQuery.superLabels.git",
+    "basePath": "",
+    "files": [
+      "jquery.superLabels*.js"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/remybach/jQuery.superLabels.git"
+  },
+  "license": "MIT"
 }

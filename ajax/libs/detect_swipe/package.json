@@ -9,12 +9,6 @@
     "jQuery",
     "plugin"
   ],
-  "maintainers": [
-    {
-      "name": "Marc-André Lafortune",
-      "web": "http://blog.marc-andre.ca"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/marcandre/detect_swipe.git",
@@ -22,5 +16,13 @@
     "files": [
       "jquery.detect_swipe.js"
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/marcandre/detect_swipe.git"
+  },
+  "license": "MIT",
+  "authors": [
+    "Marc-André Lafortune"
+  ]
 }

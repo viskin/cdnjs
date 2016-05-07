@@ -13,16 +13,12 @@
     "letters",
     "words"
   ],
-  "maintainers": [
-    {
-      "name": "Joshua Gross",
-      "web": "http://unwieldy.net"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/endtwist/kerning.js"
-    }
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/endtwist/kerning.js"
+  },
+  "license": "MIT",
+  "authors": [
+    "Joshua Gross <joshua@gross.is>"
   ]
 }

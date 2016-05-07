@@ -1,6 +1,6 @@
 {
   "name": "fullPage.js",
-  "version": "2.5.8",
+  "version": "2.7.9",
   "homepage": "http://alvarotrigo.com/fullPage/",
   "authors": [
     "Alvaro Trigo https://github.com/alvarotrigo"
@@ -24,7 +24,12 @@
     "basePath": "",
     "files": [
       "vendors/*",
-      "jquery.fullPage.*"
+      "jquery.fullPage*.js",
+      "jquery.fullPage*.css"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/alvarotrigo/fullPage.js.git"
   }
 }

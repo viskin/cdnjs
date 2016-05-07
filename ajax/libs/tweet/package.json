@@ -10,15 +10,8 @@
     "widget",
     "jquery"
   ],
-  "maintainers": [
-    {
-      "name": "Steve Purcell"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git://github.com/seaofclouds/tweet.git"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/seaofclouds/tweet.git"
+  }
 }

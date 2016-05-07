@@ -9,16 +9,12 @@
     "retina",
     "image"
   ],
-  "maintainers": [
-    {
-      "name": "Imulus",
-      "web": "http://imulus.com"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/imulus/retinajs.git"
-    }
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imulus/retinajs.git"
+  },
+  "license": "MIT",
+  "authors": [
+    "Imulus, LLC <developer@imulus.com>"
   ]
 }

@@ -10,17 +10,8 @@
     "jquery",
     "tiny"
   ],
-  "maintainers": [
-    {
-      "name": "Better2Web",
-      "email": "none",
-      "web": "https://bitbucket.org/Better2Web"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "bitbucket",
-      "url": "https://bitbucket.org/Better2Web/jquery.percentageloader"
-    }
-  ]
+  "repository": {
+    "type": "bitbucket",
+    "url": "https://bitbucket.org/Better2Web/jquery.percentageloader"
+  }
 }

@@ -1,12 +1,8 @@
 {
   "name": "angular-loading-bar",
   "filename": "loading-bar.min.js",
-  "version": "0.6.0",
+  "version": "0.9.0",
   "description": "An automatic loading bar for AngularJS",
-  "directories": {
-    "example": "example",
-    "test": "test"
-  },
   "repository": {
     "type": "git",
     "url": "git://github.com/chieffancypants/angular-loading-bar.git"
@@ -21,9 +17,6 @@
   ],
   "author": "Wes Cruver",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/chieffancypants/angular-loading-bar/issues"
-  },
   "homepage": "https://chieffancypants.github.io/angular-loading-bar",
   "npmName": "angular-loading-bar",
   "npmFileMap": [

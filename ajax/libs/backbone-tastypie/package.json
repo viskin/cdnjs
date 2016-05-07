@@ -8,13 +8,10 @@
     "tastypie",
     "backbone"
   ],
-  "devDependencies": {
-    "backbone.js": "1.0"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PaulUithol/backbone-tastypie"
   },
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/PaulUithol/backbone-tastypie"
-    }
-  ]
+  "author": "Paul Uithol <https://github.com/PaulUithol>"
 }

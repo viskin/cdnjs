@@ -8,15 +8,8 @@
     "google",
     "boilerplate"
   ],
-  "maintainers": [
-    {
-      "name": "Google"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/google/web-starter-kit.git"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/google/web-starter-kit.git"
+  }
 }

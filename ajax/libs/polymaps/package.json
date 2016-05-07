@@ -9,16 +9,16 @@
     "visualization",
     "svg"
   ],
-  "maintainers": [
-    {
-      "name": "Mike Bostock",
-      "url": "http://bost.ocks.org/mike"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/simplegeo/polymaps"
-    }
-  ]
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/simplegeo/polymaps.git",
+    "basePath": "",
+    "files": [
+      "polymaps*.js"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simplegeo/polymaps"
+  }
 }

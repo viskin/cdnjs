@@ -8,17 +8,8 @@
     "css3",
     "ie"
   ],
-  "maintainers": [
-    {
-      "name": "Keith Clark",
-      "email": "create@keithclark.co.uk",
-      "web": "http://www.keithclark.co.uk/"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/keithclark/selectivizr"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/keithclark/selectivizr"
+  }
 }

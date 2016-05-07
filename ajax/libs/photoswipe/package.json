@@ -1,16 +1,30 @@
 {
   "name": "photoswipe",
-  "filename": "code.photoswipe.js",
-  "version": "3.0.5",
-  "description": "Image Gallery for mobile and touch devices.",
+  "filename": "photoswipe.min.js",
+  "version": "4.1.1",
+  "description": "JavaScript gallery",
   "homepage": "http://www.photoswipe.com/",
   "keywords": [
     "image",
-    "gallery"
+    "gallery",
+    "lightbox",
+    "photo",
+    "touch",
+    "swipe",
+    "zoom"
   ],
-  "maintainers": [
-    {
-      "name": "Computerlove"
-    }
-  ]
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/dimsemenov/PhotoSwipe.git",
+    "basePath": "dist",
+    "files": [
+      "**/*"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dimsemenov/PhotoSwipe.git"
+  },
+  "license": "MIT",
+  "author": "Dmitry Semenov (http://dimsemenov.com)"
 }

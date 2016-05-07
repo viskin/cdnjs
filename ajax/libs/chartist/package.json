@@ -3,27 +3,18 @@
   "title": "Chartist.js",
   "filename": "chartist.min.js",
   "description": "Simple, responsive charts",
-  "version": "0.7.2",
+  "version": "0.9.7",
   "author": "Gion Kunz",
   "homepage": "https://gionkunz.github.io/chartist-js",
   "repository": {
     "type": "git",
     "url": "https://github.com/gionkunz/chartist-js.git"
   },
-  "bugs": {
-    "url": "https://github.com/gionkunz/chartist-js/issues"
-  },
   "keywords": [
     "chartist",
     "responsive charts",
     "charts",
     "charting"
-  ],
-  "licenses": [
-    {
-      "type": "WTFPL",
-      "url": "https://github.com/gionkunz/chartist-js/blob/master/LICENSE"
-    }
   ],
   "autoupdate": {
     "source": "git",
@@ -32,8 +23,9 @@
     "files": [
       "chartist.js",
       "chartist.min.js",
-      "chartist.min.map",
+      "chartist.min.js.map",
       "chartist.min.css"
     ]
-  }
+  },
+  "license": "WTFPL"
 }

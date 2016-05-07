@@ -1,8 +1,16 @@
 {
   "name": "postscribe",
-  "filename": "postscribe.min.js",
+  "npmName": "postscribe",
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files": [
+        "**/*"
+      ]
+    }
+  ],
   "description": "Asynchronously write javascript, even with document.write.",
-  "version": "1.1.2",
+  "version": "2.0.6",
   "keywords": [
     "document.write",
     "tag writer",
@@ -13,61 +21,14 @@
   "author": {
     "name": "Derek Brans",
     "email": "dbrans@gmail.com",
-    "web": "http://github.com/dbrans"
+    "web": "https://github.com/dbrans"
   },
-  "contributors": [
-    {
-      "name": "Derek Brans",
-      "email": "dbrans@gmail.com",
-      "web": "http://github.com/dbrans"
-    },
-    {
-      "name": "Nick Sullivan",
-      "email": "nick@sullivanflock.com",
-      "web": "http://creationeer.me"
-    },
-    {
-      "name": "Joshua Newman",
-      "email": "joshua.newman@krux.com"
-    }
-  ],
-  "maintainers": [
-    {
-      "name": "Joshua Newman",
-      "email": "joshua.newman@krux.com"
-    }
-  ],
-  "bugs": "https://github.com/krux/postscribe/issues",
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/krux/postscribe/blob/master/LICENSE"
-    }
-  ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:krux/postscribe.git"
+    "url": "https://github.com/krux/postscribe.git"
   },
   "dependencies": {},
-  "devDependencies": {
-    "grunt": ">=0.4",
-    "phantomjs": "~1.9",
-    "grunt-cli": "~0.1",
-    "grunt-contrib-concat": "~0.3",
-    "grunt-contrib-jshint": "~0.7",
-    "grunt-contrib-qunit": "~0.3",
-    "grunt-contrib-uglify": "~0.2",
-    "grunt-contrib-watch": "~0.5",
-    "lodash": "~2.4",
-    "testem": "~0.5"
-  },
-  "homepage": "https://krux.github.com/postscribe",
-  "engines": {
-    "node": ">=0.8"
-  },
-  "scripts": {
-    "lint": "grunt jshint",
-    "tdd": "grunt watch",
-    "test": "grunt"
-  }
+  "homepage": "https://github.com/krux/postscribe",
+  "filename": "postscribe.min.js",
+  "license": "MIT"
 }

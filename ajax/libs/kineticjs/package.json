@@ -8,17 +8,6 @@
     "html5",
     "canvas"
   ],
-  "maintainers": [
-    {
-      "name": "Eric Rowell"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/ericdrowell/KineticJS.git"
-    }
-  ],
   "npmName": "kinetic",
   "npmFileMap": [
     {
@@ -28,5 +17,11 @@
         "kinetic.min.js"
       ]
     }
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ericdrowell/KineticJS.git"
+  },
+  "license": "MIT",
+  "author": "Eric Rowell"
 }

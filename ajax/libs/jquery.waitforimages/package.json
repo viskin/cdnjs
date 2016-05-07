@@ -1,17 +1,26 @@
 {
   "title": "waitForImages jQuery Plugin",
   "name": "jquery.waitforimages",
-  "filename": "jquery.waitforimages.js",
+  "filename": "jquery.waitforimages.min.js",
   "author": {
     "name": "Alex Dickson",
     "email": "alex@alexanderdickson.com",
     "url": "http://alexanderdickson.com"
   },
-  "version": "1.5.0",
+  "version": "2.2.0",
   "homepage": "https://github.com/alexanderdickson/waitForImages",
   "repository": {
     "type": "git",
     "url": "https://github.com/alexanderdickson/waitForImages"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/alexanderdickson/waitForImages.git",
+    "basePath": "dist",
+    "files": [
+      "**/*"
+    ]
+  },
+  "description": "Provides callbacks for image loading events"
 }

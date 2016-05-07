@@ -7,15 +7,16 @@
   "keywords": [
     "jquery-resize"
   ],
-  "maintainers": [
-    {
-      "name": "Ben Alman"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/cowboy/jquery-resize"
-    }
-  ]
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/cowboy/jquery-resize.git",
+    "basePath": "",
+    "files": [
+      "jquery.ba-resize*.js"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cowboy/jquery-resize"
+  }
 }

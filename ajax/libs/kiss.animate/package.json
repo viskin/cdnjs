@@ -10,19 +10,8 @@
     "simple",
     "effect"
   ],
-  "maintainers": [
-    {
-      "name": "Dmitry Ogurtsov",
-      "web": "https://github.com/daogurtsov"
-    },
-    {
-      "name": "KISS.Animate"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git@github.com:daogurtsov/KISS.Animate.git"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daogurtsov/KISS.Animate.git"
+  }
 }

@@ -1,0 +1,28 @@
+{
+  "name": "socketcluster-client",
+  "filename": "socketcluster.min.js",
+  "description": "SocketCluster JavaScript client",
+  "version": "4.3.16",
+  "homepage": "http://socketcluster.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/SocketCluster/socketcluster-client.git"
+  },
+  "keywords": [
+    "websocket",
+    "realtime",
+    "cluster",
+    "client"
+  ],
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/SocketCluster/socketcluster-client.git",
+    "basePath": "",
+    "files": [
+      "socketcluster*.js"
+    ]
+  },
+  "authors": [
+    "Jonathan Gros-Dubois <grosjona@yahoo.com.au>"
+  ]
+}

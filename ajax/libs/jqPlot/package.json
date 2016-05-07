@@ -10,25 +10,16 @@
     "charting",
     "popular"
   ],
-  "maintainers": [
-    {
-      "name": "Chris Leonello <chris@jqplot.com>"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://bitbucket.org/cleonello/jqplot/downloads/"
-    }
-  ],
   "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://www.opensource.org/licenses/mit-license.php"
-    },
+    "MIT",
     {
       "type": "GPL",
       "url": "http://www.opensource.org/licenses/gpl-license.php"
     }
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jqPlot/jqPlot/"
+  },
+  "author": "Chris Leonello <chris@jqplot.com>"
 }

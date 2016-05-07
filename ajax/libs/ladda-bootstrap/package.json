@@ -9,15 +9,8 @@
     "indicator",
     "bootstrap"
   ],
-  "maintainers": [
-    {
-      "name": "Maksim Surguy"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/msurguy/ladda-bootstrap"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/msurguy/ladda-bootstrap"
+  }
 }

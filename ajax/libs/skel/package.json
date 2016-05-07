@@ -1,7 +1,7 @@
 {
   "name": "skel",
-  "filename": "skel.min.css",
-  "version": "2.2.1",
+  "filename": "skel.min.js",
+  "version": "3.0.0",
   "description": "Skel: A lightweight responsive framework for the www.",
   "homepage": "http://getskel.com/",
   "keywords": [
@@ -10,18 +10,6 @@
     "grid",
     "responsive"
   ],
-  "maintainers": [
-    {
-      "name": "AJ",
-      "url": "http://n33.co/"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/n33/skel.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/n33/skel.git",
@@ -29,5 +17,10 @@
     "files": [
       "skel*"
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/n33/skel.git"
+  },
+  "license": "MIT"
 }

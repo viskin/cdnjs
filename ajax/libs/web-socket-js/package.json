@@ -12,17 +12,9 @@
     "SWF",
     "swfobject"
   ],
-  "maintainers": [
-    {
-      "name": "Hiroshi Ichikawa",
-      "email": "gimite@gmail.com",
-      "web": "http://gimite.net/en/"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/gimite/web-socket-js"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gimite/web-socket-js"
+  },
+  "license": "BSD-3-Clause"
 }

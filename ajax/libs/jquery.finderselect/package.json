@@ -12,16 +12,8 @@
     "click",
     "shift"
   ],
-  "maintainers": [
-    {
-      "name": "Michael Angell",
-      "web": "https://github.com/evulse"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/evulse/finderselect"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evulse/finderselect"
+  }
 }

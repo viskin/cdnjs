@@ -9,10 +9,9 @@
     "css"
   ],
   "license": "MIT",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git://github.com/israelidanny/veinjs"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/israelidanny/veinjs"
+  },
+  "author": "Danny Povolotski"
 }

@@ -1,8 +1,8 @@
 {
   "name": "fabric.js",
   "filename": "fabric.min.js",
-  "version": "1.4.13",
-  "description": "A powerful and simple Javascript canvas library",
+  "version": "1.6.1",
+  "description": "Object model for HTML5 canvas, and SVG-to-canvas parser. Backed by jsdom and node-canvas.",
   "homepage": "http://fabricjs.com/",
   "keywords": [
     "canvas",
@@ -11,29 +11,6 @@
     "svg",
     "html5"
   ],
-  "maintainers": [
-    {
-      "name": "Juriy Zaytsev",
-      "web": "https://github.com/kangax"
-    },
-    {
-      "name": "Stefan Kienzle",
-      "web": "https://github.com/Kienz"
-    }
-  ],
-  "bugs": "https://github.com/kangax/fabric.js/issues",
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/kangax/fabric.js/blob/master/LICENSE"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/kangax/fabric.js"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/kangax/fabric.js.git",
@@ -41,5 +18,11 @@
     "files": [
       "*.js"
     ]
-  }
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kangax/fabric.js"
+  },
+  "author": "Juriy Zaytsev <kangax@gmail.com>"
 }

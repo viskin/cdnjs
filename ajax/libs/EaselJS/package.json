@@ -10,16 +10,15 @@
     "graphics",
     "animation"
   ],
-  "maintainers": [
-    {
-      "name": "EaselJS",
-      "web": "http://www.createjs.com/"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/CreateJS/EaselJS.git"
-    }
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CreateJS/EaselJS.git"
+  },
+  "license": "MIT",
+  "authors": [
+    "gskinner",
+    "lannymcnie",
+    "mikechambers",
+    "wdamien"
   ]
 }

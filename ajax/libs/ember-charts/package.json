@@ -1,11 +1,16 @@
 {
   "name": "ember-charts",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "filename": "ember-charts.min.css",
   "repository": {
     "type": "git",
     "url": "https://github.com/Addepar/ember-charts.git"
   },
+  "keywords": [
+    "ember",
+    "charts",
+    "d3"
+  ],
   "license": "MIT",
   "autoupdate": {
     "source": "git",
@@ -14,5 +19,9 @@
     "files": [
       "*"
     ]
-  }
+  },
+  "description": "A powerful and easy to use charting library for Ember.js.",
+  "authors": [
+    "Addepar"
+  ]
 }

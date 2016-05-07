@@ -1,0 +1,41 @@
+{
+  "name": "marx",
+  "version": "2.0.4",
+  "description": "The stylish CSS reset.",
+  "filename": "marx.min.css",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mblode/marx.git"
+  },
+  "keywords": [
+    "marx",
+    "karl",
+    "mblode",
+    "matthew blode",
+    "matt",
+    "blode",
+    "layout",
+    "framework",
+    "css",
+    "sass",
+    "scss",
+    "web",
+    "frontend",
+    "bootstrap",
+    "pure",
+    "markdown",
+    "format",
+    "classless"
+  ],
+  "author": "Matthew Blode",
+  "license": "MIT",
+  "homepage": "https://github.com/mblode/marx",
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/mblode/marx.git",
+    "basePath": "css",
+    "files": [
+      "marx*.+(css|map)"
+    ]
+  }
+}

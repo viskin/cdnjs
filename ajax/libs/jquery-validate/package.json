@@ -1,8 +1,8 @@
 {
   "name": "jquery-validate",
   "filename": "jquery.validate.min.js",
-  "version": "1.13.1",
-  "description": "Form Validation plugin for jQuery",
+  "version": "1.15.0",
+  "description": "Client-side form validation made easy",
   "homepage": "http://jqueryvalidation.org/",
   "keywords": [
     "jQuery",
@@ -10,6 +10,10 @@
     "validate",
     "validation"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jzaefferer/jquery-validation.git"
+  },
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/jzaefferer/jquery-validation.git",
@@ -17,5 +21,11 @@
     "files": [
       "*"
     ]
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Jörn Zaefferer",
+    "email": "joern.zaefferer@gmail.com",
+    "url": "http://bassistance.de"
   }
 }

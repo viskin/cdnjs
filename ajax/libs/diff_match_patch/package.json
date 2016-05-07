@@ -10,16 +10,8 @@
     "patch",
     "difference"
   ],
-  "maintainers": [
-    {
-      "name": "Neil Fraser",
-      "email": "neil.fraser@gmail.com"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "svn",
-      "url": "http://google-diff-match-patch.googlecode.com/svn/trunk/"
-    }
-  ]
+  "repository": {
+    "type": "svn",
+    "url": "http://google-diff-match-patch.googlecode.com/svn/trunk/"
+  }
 }

@@ -10,13 +10,8 @@
     "social"
   ],
   "homepage": "http://entypo.com",
-  "main": [
-    "entypo.woff"
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/danielbruce/entypo.git"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielbruce/entypo.git"
+  }
 }

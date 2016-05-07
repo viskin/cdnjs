@@ -8,22 +8,12 @@
     "jquery",
     "crop"
   ],
-  "maintainers": [
-    {
-      "name": "Kelly Hallman",
-      "web": "http://deepliquid.com/blog/"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/tapmodo/Jcrop"
-    }
-  ],
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/tapmodo/Jcrop/blob/master/MIT-LICENSE.txt"
-    }
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tapmodo/Jcrop"
+  },
+  "authors": [
+    "Tapmodo <khallman@tapmodo.com>"
   ]
 }

@@ -1,7 +1,7 @@
 {
   "name": "angular-mixpanel",
   "filename": "angular-mixpanel.min.js",
-  "version": "1.0.2",
+  "version": "1.1.2",
   "description": "Wraps the mixpanel JavaScript global to make it injectable and aid in testing",
   "keywords": [
     "angular",
@@ -9,15 +9,6 @@
   ],
   "homepage": "",
   "author": "kuhnza",
-  "main": [
-    "angular-mixpanel.min.js"
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/kuhnza/angular-mixpanel.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/kuhnza/angular-mixpanel.git",
@@ -25,5 +16,10 @@
     "files": [
       "angular-mixpanel.min.js"
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kuhnza/angular-mixpanel.git"
+  },
+  "license": "MIT"
 }

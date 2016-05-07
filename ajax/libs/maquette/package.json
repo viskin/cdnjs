@@ -1,6 +1,6 @@
 {
   "name": "maquette",
-  "description": "Minimalistic Virtual DOM implementation with support for animated transitions",
+  "description": "Minimalistic Virtual DOM implementation with support for animated transitions.",
   "homepage": "http://johan-gorter.github.io/maquette/",
   "keywords": [
     "virtual",
@@ -8,19 +8,12 @@
     "animation",
     "transitions"
   ],
-  "version": "1.4.6",
+  "version": "2.3.2",
   "author": "Johan Gorter <johan@johangorter.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/johan-gorter/maquette"
+    "url": "https://github.com/AFASSoftware/maquette"
   },
-  "main": "dist/maquette-min.js",
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://opensource.org/licenses/MIT"
-    }
-  ],
   "filename": "maquette.min.js",
   "npmName": "maquette",
   "npmFileMap": [
@@ -31,10 +24,5 @@
       ]
     }
   ],
-  "devDependencies": {
-    "del": "^1.1.1",
-    "gulp": "^3.8.10",
-    "gulp-rename": "^1.2.0",
-    "gulp-uglify": "^1.0.2"
-  }
+  "license": "MIT"
 }

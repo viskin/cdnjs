@@ -2,7 +2,7 @@
   "name": "flowplayer",
   "filename": "flowplayer.min.js",
   "version": "5.4.6",
-  "description": "The video player for the web",
+  "description": "The HTML5 video player for the web",
   "homepage": "http://flowplayer.org/",
   "keywords": [
     "video",
@@ -12,27 +12,9 @@
     "flash",
     "web"
   ],
-  "maintainers": [
-    {
-      "name": "Courtney Couch"
-    },
-    {
-      "name": "Niklas Narhinen"
-    },
-    {
-      "name": "Tero Piirainen"
-    },
-    {
-      "name": "Anssi Piirainen"
-    },
-    {
-      "name": "Lakshmi Vyas"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/flowplayer/flowplayer"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flowplayer/flowplayer"
+  },
+  "license": "GPLv3"
 }

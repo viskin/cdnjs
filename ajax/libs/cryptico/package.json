@@ -10,15 +10,8 @@
     "javascript",
     "rsa"
   ],
-  "maintainers": [
-    {
-      "name": "wwwtyro"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/wwwtyro/cryptico.git"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wwwtyro/cryptico.git"
+  }
 }

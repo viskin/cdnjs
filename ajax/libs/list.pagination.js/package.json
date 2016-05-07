@@ -12,17 +12,7 @@
     "html",
     "ui"
   ],
-  "repositories": {
-    "type": "git",
-    "url": "git://github.com/javve/list.pagination.js.git"
-  },
   "license": "MIT",
-  "maintainers": [
-    {
-      "name": "Jonny Strömberg",
-      "website": "http://jonnystromberg.com"
-    }
-  ],
   "autoupdate": {
     "source": "git",
     "target": "git://github.com/javve/list.pagination.js.git",
@@ -30,5 +20,10 @@
     "files": [
       "*"
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/javve/list.pagination.js.git"
+  },
+  "author": "Jonny Strömberg <jonny.stromberg@gmail.com>"
 }

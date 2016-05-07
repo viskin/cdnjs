@@ -1,7 +1,7 @@
 {
   "name": "placeholders",
-  "filename": "placeholders.js",
-  "version": "3.0.2",
+  "filename": "placeholders.min.js",
+  "version": "4.0.1",
   "description": "A JavaScript polyfill for the HTML5 placeholder attribute",
   "homepage": "http://jamesallardice.github.io/Placeholders.js/",
   "keywords": [
@@ -10,16 +10,17 @@
     "placeholder",
     "polyfill"
   ],
-  "maintainers": [
-    {
-      "name": "James Allardice",
-      "web": "<admin@jamesallardice.com>"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/jamesallardice/Placeholders.js"
-    }
-  ]
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/jamesallardice/Placeholders.js.git",
+    "basePath": "/dist",
+    "files": [
+      "placeholders*.js"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jamesallardice/Placeholders.js"
+  },
+  "author": "James Allardice <admin@jamesallardice.com>"
 }

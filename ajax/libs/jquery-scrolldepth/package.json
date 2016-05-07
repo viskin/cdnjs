@@ -1,15 +1,16 @@
 {
   "name": "jquery-scrolldepth",
   "filename": "jquery.scrolldepth.min.js",
-  "version": "0.6",
+  "version": "0.9.1",
   "description": "A jQuery plugin to track page scroll depth",
   "homepage": "http://scrolldepth.parsnip.io",
   "authors": [
     "Rob Flaherty"
   ],
-  "moduleType": [
-    "globals"
-  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robflaherty/jquery-scrolldepth.git"
+  },
   "keywords": [
     "analytics",
     "google-analytics",
@@ -21,9 +22,12 @@
     "jquery": ">=1.8"
   },
   "license": "MIT",
-  "ignore": [
-    "test",
-    "build.sh",
-    "contributing.md"
-  ]
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/robflaherty/jquery-scrolldepth.git",
+    "basePath": "",
+    "files": [
+      "jquery.scrolldepth*.js"
+    ]
+  }
 }

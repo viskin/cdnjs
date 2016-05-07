@@ -17,16 +17,22 @@
     "url": "http://odyniec.net/"
   },
   "licenses": [
-    {
-      "type": "GPL-2.0",
-      "url": "http://opensource.org/licenses/GPL-2.0"
-    },
-    {
-      "type": "MIT",
-      "url": "http://opensource.org/licenses/MIT"
-    }
+    "GPL-2.0",
+    "MIT"
   ],
   "dependencies": {
     "jquery": ">=1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/odyniec/imgareaselect"
+  },
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/odyniec/imgareaselect.git",
+    "basePath": "distfiles",
+    "files": [
+      "**/!(*.txt|jquery.min.js)"
+    ]
   }
 }

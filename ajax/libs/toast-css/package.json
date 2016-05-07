@@ -1,6 +1,6 @@
 {
   "name": "toast-css",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "filename": "grid.min.css",
   "license": "MIT",
   "homepage": "http://daneden.github.io/Toast",
@@ -10,18 +10,6 @@
     "email": "dan.eden@me.com",
     "url": "http://daneden.me"
   },
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git://github.com/daneden/Toast"
-    }
-  ],
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/daneden/Toast/blob/master/LICENSE.txt"
-    }
-  ],
   "keywords": [
     "toast",
     "css"
@@ -33,5 +21,9 @@
     "files": [
       "*"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/daneden/Toast"
   }
 }

@@ -4,16 +4,7 @@
   "version": "0.0.6",
   "description": "Vague.js is an experimental script that allows you to blur any kind of html element thanks to the SVG filters",
   "homepage": "https://gianlucaguarini.github.io/Vague.js/",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git://github.com/GianlucaGuarini/Vague.js.git"
-    }
-  ],
   "author": "Gianluca Guarini <gianluca.guarini@gmail.com> (http://gianlucaguarini.com/)",
-  "bugs": {
-    "url": "https://github.com/GianlucaGuarini/Vague.js/issues"
-  },
   "keywords": [
     "Vague",
     "blur",
@@ -26,5 +17,9 @@
     "files": [
       "Vague.js"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/GianlucaGuarini/Vague.js.git"
   }
 }

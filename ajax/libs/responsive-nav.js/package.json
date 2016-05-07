@@ -2,8 +2,8 @@
   "type": "object",
   "name": "responsive-nav.js",
   "filename": "responsive-nav.min.js",
-  "version": "1.0.32",
-  "description": "Responsive navigation plugin without library dependencies and with fast touch screen support",
+  "version": "1.0.39",
+  "description": "Responsive Nav JS plugin",
   "homepage": "http://responsive-nav.com/",
   "keywords": [
     "responsive-nav",
@@ -11,15 +11,21 @@
     "navigation",
     "CSS3"
   ],
-  "maintainers": [
-    {
-      "name": "Viljami Salminen"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/viljamis/responsive-nav.js"
-    }
-  ]
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/viljamis/responsive-nav.js.git",
+    "basePath": "",
+    "files": [
+      "responsive-nav.css",
+      "responsive-nav.min.css",
+      "responsive-nav.js",
+      "responsive-nav.min.js"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/viljamis/responsive-nav.js"
+  },
+  "license": "MIT",
+  "author": "Viljami Salminen"
 }

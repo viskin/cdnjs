@@ -11,17 +11,6 @@
     "library",
     "libil"
   ],
-  "maintainers": [
-    {
-      "name": "Didiet Noor"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/lynxluna/libil.git"
-    }
-  ],
   "npmName": "libil",
   "npmFileMap": [
     {
@@ -30,5 +19,9 @@
         "*.js"
       ]
     }
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lynxluna/libil.git"
+  }
 }

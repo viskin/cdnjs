@@ -1,7 +1,7 @@
 {
   "name": "tweenjs",
   "filename": "tweenjs.min.js",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "TweenJS is a Javascript library for tweening and animating HTML5 and Javascript properties.",
   "homepage": "http://www.createjs.com/#!/TweenJS",
   "keywords": [
@@ -9,16 +9,14 @@
     "html5",
     "animation"
   ],
-  "maintainers": [
-    {
-      "name": "CreateJS",
-      "web": "http://www.createjs.com/"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/CreateJS/TweenJS.git"
-    }
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CreateJS/TweenJS.git"
+  },
+  "license": "MIT",
+  "authors": [
+    "gskinner",
+    "lannymcnie",
+    "wdamien"
   ]
 }

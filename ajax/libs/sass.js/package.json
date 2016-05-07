@@ -1,36 +1,25 @@
 {
   "name": "sass.js",
   "filename": "sass.min.js",
-  "version": "0.6.2",
-  "description": "Sass parser in JavaScript",
+  "version": "0.9.10",
+  "description": "Sass.js is a convenience API for the JavaScript libsass (compiled with Emscripten)",
   "homepage": "https://github.com/medialize/sass.js",
   "keywords": [
     "css",
     "css3"
   ],
-  "maintainers": [
-    {
-      "name": "Rodney Rehm",
-      "web": "http://rodneyrehm.de/"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/medialize/sass.js"
-    }
-  ],
-  "npmName": "sass.js",
-  "npmFileMap": [
-    {
-      "basePath": "/dist",
-      "files": [
-        "sass.worker.js",
-        "worker.js",
-        "sass.min.js",
-        "worker.min.js",
-        "sass.js"
-      ]
-    }
-  ]
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/medialize/sass.js.git",
+    "basePath": "dist",
+    "files": [
+      "*.js"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/medialize/sass.js"
+  },
+  "license": "MIT",
+  "author": "Rodney Rehm (mail+github@rodneyrehm.de) <http://rodneyrehm.de>"
 }

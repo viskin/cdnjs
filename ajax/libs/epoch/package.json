@@ -1,31 +1,27 @@
 {
   "name": "epoch",
-  "filename": "epoch.min.js",
-  "version": "0.6.0",
+  "filename": "js/epoch.min.js",
+  "version": "0.8.4",
   "description": "A general purpose real-time charting library for building beautiful, smooth, and high performance visualizations.",
   "homepage": "http://fastly.github.io/epoch/",
   "keywords": [
     "epoch"
   ],
-  "maintainers": [
-    {
-      "name": "Ryan Sandor Richards",
-      "web": "http://github.com/rsandor"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/fastly/epoch.git"
-    }
-  ],
   "autoupdate": {
     "source": "git",
-    "target": "git://github.com/fastly/epoch.git",
-    "basePath": "",
+    "target": "git://github.com/epochjs/epoch.git",
+    "basePath": "dist",
     "files": [
-      "epoch.min.js",
-      "epoch.min.css"
+      "**/*"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/epochjs/epoch.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "rsandor",
+    "url": "https://github.com/rsandor"
   }
 }

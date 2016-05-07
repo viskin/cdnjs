@@ -9,17 +9,8 @@
     "loader",
     "indicator"
   ],
-  "maintainers": [
-    {
-      "name": "Felix Gnass",
-      "email": "felix.gnass@riotfamily.org",
-      "web": "http://fgnass.github.com/"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/neteye/jquery-plugins"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neteye/jquery-plugins"
+  }
 }

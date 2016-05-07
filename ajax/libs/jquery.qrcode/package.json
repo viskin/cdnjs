@@ -9,16 +9,12 @@
     "qrcode",
     "qr"
   ],
-  "maintainers": [
-    {
-      "name": "Jerome Etienne",
-      "url": "http://jetienne.com"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/jeromeetienne/jquery-qrcode"
-    }
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeromeetienne/jquery-qrcode"
+  },
+  "license": "MIT",
+  "authors": [
+    "jeromeetienne"
   ]
 }

@@ -1,7 +1,7 @@
 {
   "name": "flickity",
   "filename": "flickity.pkgd.min.js",
-  "version": "0.3.1",
+  "version": "1.2.1",
   "description": "Touch, responsive, flickable galleries",
   "homepage": "http://flickity.metafizzy.co/",
   "keywords": [
@@ -12,18 +12,6 @@
     "responsive",
     "flick"
   ],
-  "maintainers": [
-    {
-      "name": "Metafizzy",
-      "web": "http://metafizzy.co"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/metafizzy/flickity"
-    }
-  ],
   "npmName": "flickity",
   "npmFileMap": [
     {
@@ -32,5 +20,11 @@
         "*"
       ]
     }
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/metafizzy/flickity"
+  },
+  "license": "GPL-3.0",
+  "author": "Metafizzy"
 }

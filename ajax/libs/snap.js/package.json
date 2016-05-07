@@ -1,6 +1,6 @@
 {
   "name": "snap.js",
-  "version": "1.9.2",
+  "version": "1.9.3",
   "filename": "snap.min.js",
   "description": "",
   "homepage": "",
@@ -12,16 +12,20 @@
     "type": "git",
     "url": "git://github.com/jakiestfu/Snap.js.git"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://opensource.org/licenses/MIT"
-    }
-  ],
   "keywords": [
     "mobile",
     "menu",
     "drag",
     "UI"
-  ]
+  ],
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/jakiestfu/Snap.js.git",
+    "basePath": "",
+    "files": [
+      "snap.js",
+      "snap.min.js"
+    ]
+  },
+  "license": "MIT"
 }

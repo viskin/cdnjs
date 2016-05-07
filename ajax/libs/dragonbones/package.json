@@ -9,16 +9,8 @@
     "animation",
     "2d"
   ],
-  "maintainers": [
-    {
-      "name": "DragonBones Team",
-      "web": "https://dragonbones.github.io/"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/DragonBones/SkeletonAnimationLibraryJS.git"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DragonBones/DragonBonesJS.git"
+  }
 }

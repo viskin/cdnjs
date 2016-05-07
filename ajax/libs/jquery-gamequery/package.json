@@ -12,16 +12,8 @@
     "collision",
     "tile map"
   ],
-  "maintainers": [
-    {
-      "name": "Selim Arsever",
-      "web": "https://github.com/onaluf"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git://github.com/onaluf/gameQuery.git"
-    }
-  ]
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/onaluf/gameQuery.git"
+  }
 }

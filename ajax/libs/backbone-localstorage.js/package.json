@@ -8,19 +8,6 @@
     "localstorage",
     "backbone"
   ],
-  "maintainers": [
-    {
-      "name": "Jerome Gravel-Niquet",
-      "email": "jeromegn@gmail.com",
-      "web": "http://jgn.me/"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/jeromegn/Backbone.localStorage"
-    }
-  ],
   "npmName": "backbone.localstorage",
   "npmFileMap": [
     {
@@ -30,5 +17,11 @@
         "backbone.localStorage.js"
       ]
     }
-  ]
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeromegn/Backbone.localStorage"
+  },
+  "author": "Jerome Gravel-Niquet <jeromegn@gmail.com> (http://jgn.me)"
 }

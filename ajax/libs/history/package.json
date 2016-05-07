@@ -1,0 +1,28 @@
+{
+  "name": "history",
+  "version": "3.0.0-2",
+  "description": "A minimal, functional history implementation for JavaScript",
+  "homepage": "https://github.com/rackt/history",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rackt/history.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "history",
+    "location"
+  ],
+  "filename": "History.min.js",
+  "npmName": "history",
+  "npmFileMap": [
+    {
+      "basePath": "umd",
+      "files": [
+        "*.js"
+      ]
+    }
+  ],
+  "authors": [
+    "Michael Jackson"
+  ]
+}

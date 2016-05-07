@@ -1,6 +1,6 @@
 {
   "name": "ember-i18n",
-  "version": "3.0.0-beta.2",
+  "version": "2.9.1",
   "licence": "APLv2",
   "description": "Internationalization for Ember",
   "keywords": [
@@ -13,20 +13,7 @@
     "type": "git",
     "url": "git://github.com/jamesarosen/ember-i18n.git"
   },
-  "filename": "i18n.js",
-  "main": "lib/i18n.js",
-  "scripts": {
-    "test": "make test"
-  },
-  "devDependencies": {
-    "mocha": "~1.9.0",
-    "chai": "~1.6.0",
-    "sinon": "1.10.3",
-    "mocha-phantomjs": "~2.0.1",
-    "jshint": "~2.0.1",
-    "handlebars": "~1.0.11",
-    "uglify": "^0.1.1"
-  },
+  "filename": "i18n.min.js",
   "npmName": "ember-i18n",
   "npmFileMap": [
     {
@@ -35,5 +22,6 @@
         "*.js"
       ]
     }
-  ]
+  ],
+  "license": "Apache-2.0"
 }
