@@ -22,16 +22,16 @@
   "license": "MIT",
   "homepage": "https://github.com/terikon/marker-animate-unobtrusive",
   "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/terikon/marker-animate-unobtrusive.git",
+    "basePath": "",
+    "files": [
+      "**/*"
+    ],
     "npmName": "marker-animate-unobtrusive",
     "npmFileMap": [
       {
         "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      },
-      {
-        "basePath": "vendor",
         "files": [
           "**/*"
         ]
