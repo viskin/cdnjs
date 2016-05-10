@@ -32,7 +32,7 @@
     {
       "basePath": "vendor",
       "files": [
-        "**/*"
+        "vendor/**/*"
       ]
     }
   ]
