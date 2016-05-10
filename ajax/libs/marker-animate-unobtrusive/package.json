@@ -30,7 +30,7 @@
       ]
     },
     {
-      "basePath": "vendor",
+      "basePath": "",
       "files": [
         "vendor/**/*"
       ]
